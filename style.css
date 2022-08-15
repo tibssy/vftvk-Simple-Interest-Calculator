@@ -5,6 +5,7 @@ body {
 }
 
 h1 {
+    display: inline;
     color:grey;
     font-family: verdana;
 }
@@ -12,8 +13,8 @@ h1 {
 .maindiv {
     background-color: white;
     color: black;
-    width: 400px;
-    /* width: fit-content; */
+    /* width: 400px; */
+    width: fit-content;
     padding: 20px;
     border-radius: 25px;
     margin: auto;
