@@ -6,3 +6,5 @@ Chrome:
 
 
 Firefox:
+
+![firefox](https://user-images.githubusercontent.com/72749248/184655688-b3d812a1-0ceb-4ea8-9a0b-ccb5c7ec4f54.png)
