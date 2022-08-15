@@ -1,13 +1,13 @@
 body {
     background-color:black;
     font-family:arial;
-    color:white
+    color:white;
 }
 
 h1 {
-    display: block;
     color:grey;
     font-family: verdana;
+    white-space: nowrap;
 }
 
 .maindiv {
