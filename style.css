@@ -1,4 +1,54 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family:arial;
+    color:white
+}
 
+h1 {
+    color:grey;
+    font-family: verdana;
+}
 
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 400px;
+    /* width: fit-content; */
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    height: 100px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#principal {
+    width: 90%;
+}
+
+#slider {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#years {
+    width: fit-content;
+}
+
+footer {
+    padding-top: 10px;
+}
