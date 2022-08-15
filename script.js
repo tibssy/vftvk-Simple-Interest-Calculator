@@ -1,5 +1,4 @@
-function compute()
-{
+function compute() {
     var principal = document.getElementById("principal").value;
 
     if (principal > 0) {
@@ -13,21 +12,14 @@ function compute()
                     in the year <mark>${year}</mark></p>`
     
         document.getElementById("result").innerHTML = result 
-    }
-
-    else {
+    } else {
         alert("Enter a positive number")
-        console.log("pressed")
         document.getElementById("principal").focus();
     }
 }
 
-
-
-
-function updateRate() 
-{
+function updateRate() {
     var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval+"%";
+    document.getElementById("rate_val").innerText = rateval+"%";
 }
 
